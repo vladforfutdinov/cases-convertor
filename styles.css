@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'SF Pro Display', Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 1rem;
+}
+#form {
+  margin: 0 auto 1rem;
+  display: table;
+}
+#form [name='input'] {
+  padding: 0.3rem;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#form .filters {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+#form .filters .all,
+#form .filters .each {
+  display: flex;
+  justify-content: center;
+  padding: 0 0.5rem;
+}
+#form .filters .each {
+  border-left: 1px solid gray;
+}
+#form .filters label {
+  margin: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+#output {
+  border-top: 1px solid gray;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  flex-wrap: wrap;
+}
+#output fieldset {
+  justify-self: center;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border: 2px solid gray;
+  margin: 0 1rem 1rem;
+}
+#output legend {
+  text-align: center;
+  padding: 0 1rem;
+  background-color: white;
+}
+#output fieldset p {
+  margin: 0;
+}
